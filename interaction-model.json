@@ -1,0 +1,28 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "codingjam",
+            "intents": [
+                {
+                    "name": "PostIntent",
+                    "slots": [],
+                    "samples": [
+                        "Leggi ultimo post",
+                        "voglio leggere l'ultimo post",
+                        "ultimo post"
+                    ]
+                },
+                {
+                    "name": "ListIntent",
+                    "slots": [],
+                    "samples": [
+                        "leggi gli ultimi titoli",
+                        "leggi i titoli",
+                        "titoli"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
