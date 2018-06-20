@@ -1,0 +1,12 @@
+service: codingjam-alexa-skill
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+
+functions:
+  handler:
+    handler: index.handler
+    events:
+      - alexaSkill: amzn1.ask.skill.373ec43d-895a-4963-aa19-c1d7a5cd4cfa
