@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "codingjam",
+            "invocationName": "coding jam",
             "intents": [
                 {
                     "name": "PostIntent",
@@ -9,7 +9,12 @@
                     "samples": [
                         "Leggi ultimo post",
                         "voglio leggere l'ultimo post",
-                        "ultimo post"
+                        "ultimo post",
+                        "qual è il titolo dell'ultimo post",
+                        "leggi ultimo articolo",
+                        "voglio leggere l'ultimo articolo",
+                        "ultimo articolo",
+                        "qual è il titolo dell'ultimo articolo"
                     ]
                 },
                 {
@@ -18,7 +23,11 @@
                     "samples": [
                         "leggi gli ultimi titoli",
                         "leggi i titoli",
-                        "titoli"
+                        "titoli",
+                        "leggi i titoli degli ultimi articoli",
+                        "leggi i titoli degli ultimi post",
+                        "fammi una panoramica degli ultimi post",
+                        "fammi una panoramica degli ultimi articoli"
                     ]
                 }
             ],
