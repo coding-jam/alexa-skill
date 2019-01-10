@@ -1,0 +1,46 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "La Skill ufficiale del blog CodingJam",
+          "examplePhrases": [
+            "Alexa, apri coding jam",
+            "Alexa, avvia coding jam e leggi gli ultimi post",
+            "Alexa, lancia coding jam"
+          ],
+          "keywords": [
+            "Software",
+            "sviluppo",
+            "programmazione"
+          ],
+          "name": "CodingJam",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8d98/c68e022243a44c00b317ce37e3238f23/APP_ICON?versionId=HJIUCawr2kPw4U59KnIG5EETtA3ZE6o.&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547203332&Signature=cUDRNzrTBn4MM%2FZTmdGnZuTLabs%3D",
+          "description": "CodingJam è uno dei più famosi blog italiani sullo sviluppo software. Con questa skill potrai conoscere i titoli degli ultimi aggiornamenti e dare la possibilità di leggere un estratto dell'articolo più recente.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/f47d/ab9490f2d9434346ab2021c98a7c3781/APP_ICON_LARGE?versionId=hrAUEwr7URyHkZMYs.1PWssFoathGvd_&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547203332&Signature=%2B4x1koKaEqOqd7Kky%2BabjMlS%2F5A%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just follow the instructions in the launch request",
+      "category": "NEWS",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

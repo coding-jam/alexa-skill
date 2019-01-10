@@ -1,0 +1,43 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.373ec43d-895a-4963-aa19-c1d7a5cd4cfa",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:383537978421:function:codingjam-alexa-skill-dev-handler"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "ec06484a574cf34f041678c1488dba88"
+        },
+        "interactionModel": {
+          "it-IT": {
+            "eTag": "bcc73fc73394dd1b850e7ac93c60b4a4"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:383537978421:function:codingjam-alexa-skill-dev-handler",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "arn:aws:lambda:us-east-1:383537978421:function:codingjam-alexa-skill-dev-handler",
+            "handler": "index.handler",
+            "revisionId": "faa04f54-e1f7-440d-bfff-a54ce735c9f7",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
