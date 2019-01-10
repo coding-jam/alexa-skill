@@ -8,7 +8,6 @@ module.exports = {
     return handlerInput.responseBuilder
       .speak(texts.WELCOME)
       .reprompt(texts.REPROMPT)
-      .withShouldEndSession(false)
       .getResponse()
   }
 }
