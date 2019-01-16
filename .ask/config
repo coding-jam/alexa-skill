@@ -33,7 +33,7 @@
             "codeUri": "lambda/custom",
             "functionName": "arn:aws:lambda:us-east-1:383537978421:function:codingjam-alexa-skill-dev-handler",
             "handler": "index.handler",
-            "revisionId": "e977956b-0527-4a40-a231-671008ebe609",
+            "revisionId": "17abf883-0ca0-4a11-b97d-ca979234513f",
             "runtime": "nodejs8.10"
           }
         ]

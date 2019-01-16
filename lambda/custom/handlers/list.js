@@ -5,7 +5,8 @@ const MAX_TITLES = 4
 
 module.exports = {
   canHandle(handlerInput) {
-    return handlerInput.requestEnvelope.request.type === 'IntentRequest' && handlerInput.requestEnvelope.request.intent.name === 'ListIntent'
+    return handlerInput.requestEnvelope.request.type === 'IntentRequest' && 
+    handlerInput.requestEnvelope.request.intent.name === 'ListIntent'
   },
   handle(handlerInput) {
     return codingJam.getTitles().then(titles => {
