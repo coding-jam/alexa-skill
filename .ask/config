@@ -20,7 +20,7 @@
         },
         "interactionModel": {
           "it-IT": {
-            "eTag": "1c457b1f7d86a4219a04ff30ce7fe5c3"
+            "eTag": "cc520d555470d3bcc97bc46e6e9a6842"
           }
         },
         "lambda": [
@@ -33,7 +33,7 @@
             "codeUri": "lambda/custom",
             "functionName": "arn:aws:lambda:us-east-1:383537978421:function:codingjam-alexa-skill-dev-handler",
             "handler": "index.handler",
-            "revisionId": "9cb1eb0a-a14c-4f99-bc09-1646fa80e491",
+            "revisionId": "670d41af-c7a8-4be8-9e8b-276fed54d456",
             "runtime": "nodejs8.10"
           }
         ]

@@ -17,10 +17,6 @@
                   ]
               },
               {
-                  "name": "AMAZON.StopIntent",
-                  "samples": []
-              },
-              {
                   "name": "AMAZON.CancelIntent",
                   "samples": []
               }

@@ -2,12 +2,12 @@ const Alexa = require('ask-sdk-core')
 
 const LaunchRequestHandler = require('./handlers/launch')
 const ListIntentHandler = require('./handlers/list')
-const StopIntentHandler = require('./handlers/stop')
+const CancelIntentHandler = require('./handlers/cancel')
 
 module.exports.handler = Alexa
   .SkillBuilders
   .custom()
   .addRequestHandlers(LaunchRequestHandler)
   .addRequestHandlers(ListIntentHandler)
-  .addRequestHandlers(StopIntentHandler)
+  .addRequestHandlers(CancelIntentHandler)
   .lambda()
