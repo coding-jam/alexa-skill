@@ -2,8 +2,11 @@ const texts = require('../texts')
 
 module.exports = {
     canHandle(handlerInput) {
-        return handlerInput.requestEnvelope.request.type === 'IntentRequest' && 
-        handlerInput.requestEnvelope.request.intent.name === 'AMAZON.CancelIntent'
+        if(!handlerInput.requestEnvelope.request.type === 'IntentRequest'){
+            return false
+          }
+      
+        return handlerInput.requestEnvelope.request.intent.name === 'AMAZON.CancelIntent'
     },
     handle(handlerInput) {
         return handlerInput.responseBuilder
